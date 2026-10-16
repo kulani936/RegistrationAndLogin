@@ -43,9 +43,9 @@ public class Login {
 
         if (checkUserName(username)&& checkPasswordComplexity(password) && checkCellPhoneNumber(phone)) {
 
-            return "User is successfully registered";
+            return "User registration failed";
         }
-        return "User registration failed";
+        return "User is successfully registered";
     }
 
 
